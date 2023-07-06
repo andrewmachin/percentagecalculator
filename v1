@@ -1,0 +1,9 @@
+def calculate_percentage(value, total):
+    percentage = (value / total) * 100
+    return percentage
+
+# Example usage
+value = 75
+total = 200
+result = calculate_percentage(value, total)
+print(f"The percentage is: {result}%")
